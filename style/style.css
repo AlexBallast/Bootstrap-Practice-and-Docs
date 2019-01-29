@@ -1,0 +1,59 @@
+*{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+body,html{
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+.navbar{
+    background-color: #000;
+    height: auto;
+    position: fixed;
+    top : 0px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar h1{ 
+    padding: 10px 0 0 25px ;
+}
+.navbar p{
+    top: 0;
+    margin: 0;
+    padding: 50px 0px 0px 0px;
+    line-height: 15px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #000;
+    height: auto;
+    color: #fff;
+    position: absolute;
+    width :100%;
+}
+
+.footer p{
+    margin: 9px 0 5px 0;
+}
+
+.alerts{
+    display: block;
+    top : 150px;
+}
+
+.content{
+    top : 120px;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
